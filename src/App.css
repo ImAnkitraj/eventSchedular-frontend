@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgba(255,255,255,0.8);
+}
+.app-body{
+    margin: 1rem 2.5rem;
+}
+
+.fc table{
+    font-size: 1rem !important;
+    background-color:rgba(0,0,0,0.7) !important;
+    color: whitesmoke;
+}
+
+.fc .fc-daygrid-day-number{
+    text-align: center !important;
+    padding: 1rem;
+}
+
+.fc .fc-col-header-cell-cushion{
+    color: white;
+    padding: 1rem;
+}
+.fc-header-toolbar, .fc-toolbar{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.1);
+} 
+
+.fc-today-button{
+    background-color: black!important;
+}
+.fc-prev-button,
+.fc-next-button{
+    background-color: rgba(0,0,0,0.8) !important;
+    transition: all 0.3s;
+}
+.fc-next-button:hover{
+    background-color:rgba(0,0,0,0.9) !important;
+}
+.fc-prev-button:hover{
+    background-color:rgba(0,0,0,0.9) !important;
+}
+.fc-scrollgrid-liquid::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .fc-scrollgrid-liquid {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

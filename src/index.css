@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.btn {
+    transition: all 0.3s;
+    background-color: rgba(0,0,0,0.8);
+    font: inherit;
+    border: 1px solid rgba(0,0,0,0.26);
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.26);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+    background: rgba(0,0,0,0.9);
+    border-color: rgba(0,0,0,0.6);
+}
+
+ul{
+    list-style: none;
+}
